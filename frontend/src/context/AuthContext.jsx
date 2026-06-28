@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const AuthContext = createContext();
 
-export const API_URL = 'https://edusync-api-pp43.onrender.com';
+export const API_URL = 'https://edusync-api-pp43.onrender.com/api';
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
